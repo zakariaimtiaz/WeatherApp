@@ -7,8 +7,9 @@ import java.sql.SQLException;
 public class DatabaseManager {
 
     private static final String URL = "jdbc:postgresql://127.0.0.1:5432/weatherapp";
-    private static final String USER = "postgres";
-    private static final String PASSWORD = "postgres";
+    //use the credentials here...
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     private static DatabaseManager instance;
 
