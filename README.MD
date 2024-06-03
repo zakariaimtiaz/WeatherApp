@@ -88,4 +88,8 @@ This setting is enabled by default in this project.
   MainView.java
 
   ```
-
+##### Business Logic
+- any user can search Location (name, lat, long) by city name
+- filter option is available
+- only registered users can see weather forecast by clicking on location
+- registered users also can hourly details weather info by clicking on specific date
