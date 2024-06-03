@@ -1,8 +1,6 @@
 -- Create database
 CREATE DATABASE weatherapp;
 
--- Drop table if it already exists
-DROP TABLE IF EXISTS public.users;
 
 -- Create table
 CREATE TABLE public.users
@@ -21,8 +19,6 @@ VALUES ('john_doe', 'password123', 'John Doe'),
        ('admin', 'admin123', 'Admin User');
 
 
--- Drop table if it already exists
-DROP TABLE IF EXISTS public.location;
 -- Create table
 CREATE TABLE public."location"
 (
@@ -36,4 +32,3 @@ CREATE TABLE public."location"
     user_id   int4         NOT NULL,
     CONSTRAINT location_pkey PRIMARY KEY (id)
 );
-
