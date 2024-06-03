@@ -31,8 +31,12 @@ Postgresql 42.2.23 is used for the application.
 To configure database go the `DatabaseManager.java` file (see the project structure to locate) to set up the necessary changes.
 Additionally a script is provided with the project placed in the resoureces folder.
 Run the script to generate necessary tables & data.
-
-
+```
+List of users for the application 
+- username: john_doe,   password: password123
+- username: jane_smith, password: pass456
+- username: admin,      password: admin123
+```
 #### Deployment
 
 The project is a standard Java/Jakarta EE application, so you can deploy it as you see best, via IDE or using Maven plugins. Wildfly and TomEE plugins are pre-configured for easy testing. Wildfly plugin is used for integration tests. Currently only Wildfly properly supports Java 17.
