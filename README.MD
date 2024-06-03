@@ -27,6 +27,7 @@ mvn clean package wildfly:run -Pproduction
 ```
 ### Database Configuration
 Postgresql 42.2.23 is used for the application.
+
 To configure database go the `DatabaseManager.java` file (see the project structure to locate) to set up the necessary changes.
 Additionally a script is provided with the project placed in the resoureces folder.
 Run the script to generate necessary tables & data.
